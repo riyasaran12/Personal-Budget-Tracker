@@ -1,0 +1,38 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+build/
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploads (keep structure but ignore files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Excel files (if generated, uncomment if needed)
+# *.xlsx
+# !backend/expense_details.xlsx
+# !backend/income_details.xlsx
+
